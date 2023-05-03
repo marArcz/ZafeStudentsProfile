@@ -49,7 +49,7 @@
                 <?php echo isset($error['confirm_password']) ? $error['confirm_password'] : '' ?>
             </p>
         </div>
-
+        <br>
         <button type="submit" name="signup">Create Account</button>
         <p>Already have an account? login <a href="../index.php">here!</a></p>
     </form>

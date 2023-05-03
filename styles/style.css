@@ -46,3 +46,8 @@ table th, table td{
     border: 1px solid var(--table-border-color);
     padding: var(--table-padding);
 }
+
+.text-error{
+    font-size: 0.9rem;
+    color: red;
+}
