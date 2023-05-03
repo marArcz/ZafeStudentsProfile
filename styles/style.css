@@ -1,0 +1,48 @@
+:root{
+    --page-background: #fff;
+    --title-color:rgb(25, 121, 199);
+    --table-border-color:gray;
+    --table-padding: 5px 10px;
+}
+
+/* fonts */
+*{
+    font-family: monospace;
+}
+
+
+body{
+    background: var(--page-background);
+}
+
+.title{
+    color: var(--title-color);
+}
+
+
+form div{
+    margin-bottom: 15px;
+}
+
+input,select{
+    padding: 3px 12px;
+}
+
+form label{
+    margin-bottom: 20px;
+}
+
+button{
+    padding:6px 12px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid var(--table-border-color);
+    padding: var(--table-padding);
+}
+
+table th, table td{
+    border: 1px solid var(--table-border-color);
+    padding: var(--table-padding);
+}
